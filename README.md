@@ -27,6 +27,7 @@ The folder 'table' contains the data. It has 9 tables:
 
 ## Usage
 *Example Usage*
+
 Unzip it to see all the .py files
 ```
     python friendman.py
