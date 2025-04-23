@@ -9,15 +9,19 @@
 
 ---
 
-## ⚙️ Dataset
+## Dataset
 
-Event.db contains the data we compiled from DrugBank 5.1.3 verision. It has 4 tables:
+The folder 'table' contains the data. It has 9 tables:
 
-1.drug contains 572 kinds of drugs and their features.
+1.The eight mat files under the 8anti_mat folder represent the data used in the comparison experiments
 
-2.event contains the 37264 DDIs between the 572 kinds of drugs.
+2.The 1000.xlsx file is the data used in the new Comparison Experiments section
 
-3.extraction is the process result of NLPProcess. Each interaction is transformed to a tuple: {mechanism, action, drugA, drugB}
 
-4.event_numer lists the kinds of DDI events and their occurence frequency.
+## Requirement
+- numpy (==1.24.3)
+- pytorch (==2.3.1)
+- spikingjelly
+- scikit-learn (==1.4.2)
+
 
