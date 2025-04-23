@@ -5,6 +5,7 @@
 
 - [Dataset](#Dataset)
 - [Requirement](#Requirement)
+- [Usage](#Usage)
 
 
 ---
@@ -24,4 +25,13 @@ The folder 'table' contains the data. It has 9 tables:
 - spikingjelly
 - scikit-learn (==1.4.2)
 
+## Usage
+*Example Usage*
+```
+    python friendman.py
+    python multiview_classification.py
+    python ML_Comparison.py 
+```
+What starts with multi is basically SMVSSN's test and training code, which includes the intermediate products of many iterations of.
 
+The code for the comparison algorithms can be found by using the abbreviations in the corresponding files.
